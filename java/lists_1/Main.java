@@ -22,7 +22,7 @@ public class Main {
         List<String> output = new ArrayList<>();
         final String REGEX = "[A-Z\s]+";
 
-        try (Stream<String> stream = Files.lines(Paths.get(System.getProperty("user.dir") + "/src/KM_KOLEKCJE_LISTY1/" + fileName))) {
+        try (Stream<String> stream = Files.lines(Paths.get(System.getProperty("user.dir") + "/src/" + fileName))) {
 
             stream
                     .map(line -> line.split(",")[2])
