@@ -1,9 +1,3 @@
-# Zaproponuj implementację stosu w oparciu o tablicę jednowymiarową liczb
-# całkowitych. Użytkownik podaje maksymalny rozmiar stosu. Zastosuj
-# ograniczenie, w ramach którego użytkownik może na stosie umieszczać tylko
-# liczby pierwsze.
-
-
 def print_menu():
     user_input = 0
     while user_input not in ['1', '2', '3', '0']:
