@@ -1,15 +1,3 @@
-package KM_MAPY1_3;
-
-// Przygotuj klasę Product o polach składowych name, category, price.
-// Niech category będzie wartością przygotowanego przez Ciebie typu
-// wyliczeniowego Category. Zaimplementuj kolekcję bez duplikatów
-// przechowującą obiekty klasy Product. Kolekcję wypełnij przykładowymi
-// danymi. Na podstawie kolekcji wygeneruj mapę, której kluczem jest pole
-// typu Category, natomiast wartością kolekcja bez powtórzeń obiektów
-// klasy Product, które posiadają pole category, takie jak klucz, któremu
-// je przyporządkowano. Na podstawie mapy znajdź kategorię, dla której
-// średnia cena produktów jest największa.
-
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -20,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
-    private static final String PATH = System.getProperty("user.dir") + "\\src\\main\\java\\KM_MAPY1_3\\";
+    private static final String PATH = System.getProperty("user.dir") + "\\src\\main\\java\\";
 
     public static void main(String[] args) {
         Set<Product> products = getProductsFromFile("products");
