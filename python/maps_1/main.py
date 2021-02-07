@@ -1,10 +1,3 @@
-# Przygotuj kolekcję 20 liczb całkowitych bez powtórzeń, które wylosujesz
-# z przedziału <10, 30>. Następnie na podstawie kolekcji wygeneruj mapę,
-# której kluczem będzie kolejna z wylosowanych liczb, natomiast wartością
-# suma parzystych cyfr tej liczby. Wyznacz z mapy parę o największej
-# wartości. Wyznacz największą i najmniejszą wartość klucza. Posortuj
-# mapę malejąco według stosunku klucz / wartość.
-
 import random
 
 
