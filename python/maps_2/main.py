@@ -1,14 +1,3 @@
-# Na potrzeby zadania przygotuj plik tekstowy, który w każdym wierszu
-# zawiera napis składający się z dowolnych znaków (może to być również
-# całe zdanie). Pobierz kolejne wiersze napisu do kolekcji napisów. Na
-# podstawie kolekcji napisów wygeneruj mapę, której kluczem będzie napis
-# składający się z samych samogłosek występujących w napisie z kolekcji,
-# natomiast wartością napis składający się z samych spółgłosek
-# występujących w napisie z kolekcji. Podaj informację ile par w mapie
-# posiada taką samą długość klucza i wartości. Wyznacz parę, dla której
-# różnica pomiędzy długością klucza oraz wartości jest największa oraz
-# najmniejsza.
-
 import re
 
 file_content = open('./sentences.txt', 'r').read().split('\n')
