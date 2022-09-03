@@ -66,4 +66,9 @@ let symmetricalSentence = calculateSymmetricalSentence(generatedSentence)
 console.log(generatedSentence)
 console.log(`Suma odległości wystąpień jest najdłuższa dla znaku: ${longestDistance[0]} i wynosi ${longestDistance[1]}`)
 console.log(`Należy przesunąć się o ${distanceToMoveCharactersToLeft} pozycji aby wszystkie wystąpienia znaku znalazły się po lewej stronie napisu.`)
+<<<<<<< HEAD
 console.log(`Napis symetryczny do ${generatedSentence} to ${symmetricalSentence}`)
+=======
+console.log(`Napis symetryczny do ${generatedSentence} to ${symmetricalSentence}`)
+>>>>>>> 57981fcb580850b49e396b6c5ae419f7196f63d3
+
