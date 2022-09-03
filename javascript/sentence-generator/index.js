@@ -67,4 +67,3 @@ console.log(generatedSentence)
 console.log(`Suma odległości wystąpień jest najdłuższa dla znaku: ${longestDistance[0]} i wynosi ${longestDistance[1]}`)
 console.log(`Należy przesunąć się o ${distanceToMoveCharactersToLeft} pozycji aby wszystkie wystąpienia znaku znalazły się po lewej stronie napisu.`)
 console.log(`Napis symetryczny do ${generatedSentence} to ${symmetricalSentence}`)
-
