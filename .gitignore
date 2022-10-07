@@ -17,13 +17,14 @@
 cmake-build-*/
 
 .idea/httpRequests
-http-client.private.env.json
 .idea/sonarlint/
 .idea/sonarlint.xml
 .idea/replstate.xml
 .idea/gradle.xml
 .idea/libraries/
 .idea/vcs.xml
+http-client.private.env.json
+
 
 *.iws
 
