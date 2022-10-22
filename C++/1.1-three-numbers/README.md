@@ -1,5 +1,4 @@
-# Anagram
+# Three numbers
 
-Given a word and a list of possible anagrams, select the correct sublist.
-
+Prompt the user for three non-negative integers. Find the largest of these three numbers. Then, print the sum of the remaining two numbers a number of times equal to the largest number.
 
